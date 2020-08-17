@@ -9,6 +9,12 @@
     <DebugSymbols>true</DebugSymbols>
     <Configurations>Debug;Debug_Compact;Debug_Minimal;Release;Release_Compact;Release_Minimal</Configurations>
   </PropertyGroup>
+  
+  <!-- Defaults -->
+  <PropertyGroup>
+    <Edition>Minimal</Edition>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+  </PropertyGroup>
 
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <Edition>Full</Edition>
